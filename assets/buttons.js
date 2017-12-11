@@ -34,6 +34,7 @@ for( var i=0; i < gotCharacters.length; i++){
 
 
  $("button").on("click", function() {
+     $("#gifs").empty();
       var person = $(this).attr("data-char");
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         person + "&api_key=dc6zaTOxFJmzC&limit=10";
