@@ -5,8 +5,20 @@ var gotCharacters = ["Arya Stark" , "Jon Snow", "Joffery Baratheon", "Ygritte", 
 
 
 
+// Accepts User Input on click of submit
+$("#submit").on("click", function (){
+ // Gets the value of character name and stores it to  userChar 
+  var userChar = $("#charName").val().trim();
+  
 
+  userChar.push(gotCharacters);
+   /* var charBtn =  $("<button>");
+   charBtn.attr("data-char" , userChar);
+   charBtn.addClass("btn btn-success gotCharacters");
+   charBtn.text(userChar);
 
+   $("#buttonsGoHere").append(charBtn);*/
+});
 
 
 for( var i=0; i < gotCharacters.length; i++){
