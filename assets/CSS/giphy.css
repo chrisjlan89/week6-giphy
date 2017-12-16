@@ -1,0 +1,27 @@
+.gotCharacters {
+      margin-left: 1%;
+      margin-top: .7%;
+      margin-bottom: 2%;
+}
+
+.gotCharacters {
+	font-size: 1.2em;
+	background-color: #501362;
+	font-family: 'Cardo', serif; 
+}
+
+.gif{
+	max-height: 400px;
+	float: left;
+	margin-right: 5%;
+
+}
+
+.rating{
+	font-family: 'Cardo' , serif;
+}
+
+body{
+	background-image: : url('assets/gotbg.jpg');
+}
+
